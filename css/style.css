@@ -71,12 +71,13 @@ h2, h3 {
 }
 
 nav {
-    float: right;
+    float: left;
     margin-top: 25px;
     background-color: #21ca46fd;
-    width: 200px;
-    height: 75px;
-    font-size: 25px
+    width: 102%;
+    height: 45px;
+    font-size: 45px;
+    text-align: center;    
 }
 
 nav a {
