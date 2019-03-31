@@ -75,8 +75,8 @@ nav {
     margin-top: 25px;
     background-color: #21ca46fd;
     width: 102%;
-    height: 45px;
-    font-size: 45px;
+    height: 65px;
+    font-size: 35px;
     text-align: center;    
 }
 
@@ -235,10 +235,10 @@ button [type=submit] {
         clear: both;
         float: left;
     }
-    nav{
+    /*nav{
         
         margin-right: 5rem;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 768px){
@@ -253,12 +253,12 @@ button [type=submit] {
 }
 
 @media only screen and (max-width: 640px){
-    nav{
+    /*nav{
         display: inline-block;
         float: none;
         text-align: center;
         margin: 0 25%;
-    }
+    }*/
     #logo{
         width: 100%;
     }
