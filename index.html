@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Profile</title>
     <meta charset="UTF-8">
@@ -8,11 +9,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript">
+        tinymce.init({
+            selector: "textarea"
+        });
+    </script>
 </head>
+
 <body>
     <header id="masthead">
-    <div class= "container">
-        <a href="index.html" id="logo">Julian K Hicks</a>
+        <div class="container">
+            <a href="index.html" id="logo">Julian K Hicks</a>
             <nav>
                 <a href="index.html">About/Contact</a>
                 <a href="portfolio.html">Portfolio</a>
@@ -26,43 +33,47 @@
 
             <img src="./images/StandTall.jpg" class="auth-image" alt="StandTall">
 
-            <p> I am 33 year old male, who is very healthy, exercises 2-3 times a week. I work a full-time job while attending the University of California Riverside part-time to obtain a certificate in web-development. I am neither married nor do I have any children, however someday I will change those aspects of my life.
+            <p> I am 33 year old male, who is very healthy, exercises 2-3 times a week. I work a full-time job while
+                attending the University of California Riverside part-time to obtain a certificate in web-development. I
+                am neither married nor do I have any children, however someday I will change those aspects of my life.
             </p>
-            <p> My Goal is to obtain my certificate, become more confident in myself and my abilities. I will take what I have learned at the University of Riverside and strive for a full-time career in web web-development.
+            <p> My Goal is to obtain my certificate, become more confident in myself and my abilities. I will take what
+                I have learned at the University of Riverside and strive for a full-time career in web web-development.
             </p>
-            
+
             <h1>Contact</h1>
-        
+
             <form id="contact-form">
-               <ul>
-                   <li>
-                      <label for="name">Name</label>
-                      <input type="text"name="name" id="
-                      name"placeholder="John Smith" required="required">
-                   </li>
-                   <li>
-                        <label for="email">Email</label>
-                        <input type="text"name="email" id="
-                        email"placeholder="example@gmail.com" required="required">
-                   </li>
-                   <li>
-                        <label for="message">Message</label>
-                        <textarea id="message"name="message" required="required"></textarea>
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="
+                      name" placeholder="John Smith" required="required">
                     </li>
-               </ul>
-               <button type="button" class="btn btn-primary" id="addContact">Submit</button> 
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="
+                        email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-primary" id="addContact">Submit</button>
             </form>
         </section>
         <section class="sidebar">
             <div id="connect">
-                 <h2>Connect with Me</h2>
+                <h2>Connect with Me</h2>
 
-                 <a href="https://github.com/juliank2"> <img src="./images/Github.png" class="social" alt="Github"></a>
-                 <a href="https://www.linkedin.com/in/julian-hicks-bb6835149/"> <img src="./images/Linkedin.png" class="social" alt="Linkdin"></a>
-                 <a href="https://slack.com/"> <img src="./images/h-slack.png" class="social" alt="Slack"></a>
+                <a href="https://github.com/juliank2"> <img src="./images/Github.png" class="social" alt="Github"></a>
+                <a href="https://www.linkedin.com/in/julian-hicks-bb6835149/"> <img src="./images/Linkedin.png"
+                        class="social" alt="Linkdin"></a>
+                <a href="https://slack.com/"> <img src="./images/h-slack.png" class="social" alt="Slack"></a>
             </div>
         </section>
-    </div>    
+    </div>
 
     <footer>
         <div class="container">
@@ -70,4 +81,5 @@
         </div>
     </footer>
 </body>
+
 </html>
