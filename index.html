@@ -1,85 +1,229 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+<meta charset="UTF-8">
 
-<head>
-    <title>Profile</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <script type="text/javascript">
-        tinymce.init({
-            selector: "textarea"
-        });
-    </script>
+<title>DBMonger</title>
+
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="">
+
 </head>
 
 <body>
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Julian K Hicks</a>
-            <nav>
-                <a href="index.html">About/Contact</a>
-                <a href="portfolio.html">Portfolio</a>
-            </nav>
-        </div>
-    </header>
 
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>About Me</h1>
-
-            <img src="./images/StandTall.jpg" class="auth-image" alt="StandTall">
-
-            <p> I am 33 year old male, who is very healthy, exercises 2-3 times a week. I work a full-time job while
-                attending the University of California Riverside part-time to obtain a certificate in web-development. I
-                am neither married nor do I have any children, however someday I will change those aspects of my life.
-            </p>
-            <p> My Goal is to obtain my certificate, become more confident in myself and my abilities. I will take what
-                I have learned at the University of Riverside and strive for a full-time career in web web-development.
-            </p>
-
-            <h1>Contact</h1>
-
-            <form id="contact-form">
-                <ul>
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="
-                      name" placeholder="John Smith" required="required">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="
-                        email" placeholder="example@gmail.com" required="required">
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required"></textarea>
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-primary" id="addContact">Submit</button>
-            </form>
-        </section>
-        <section class="sidebar">
-            <div id="connect">
-                <h2>Connect with Me</h2>
-
-                <a href="https://github.com/juliank2"> <img src="./images/Github.png" class="social" alt="Github"></a>
-                <a href="https://www.linkedin.com/in/julian-hicks-bb6835149/"> <img src="./images/Linkedin.png"
-                        class="social" alt="Linkdin"></a>
-                <a href="https://slack.com/"> <img src="./images/h-slack.png" class="social" alt="Slack"></a>
-            </div>
-        </section>
+    <div id="top">
     </div>
 
-    <footer>
-        <div class="container">
-            &copy: Copyright 2019 Julian Hicks
+    <header class="masthead bg-primary text-black text-left">
+        <div class="row">
+            <div class="col-lg-12 navPosition">
+                <nav class="navbar fixed-top justify-content-end">
+                    <ul class="nav nav-bar">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#top"><strong class="navBorder">Home</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#aboutSection"><strong class="navBorder">About</strong></a>
+                        </li>
+                        <br>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolioSection"><strong
+                                    class="navBorder">Portfolio</strong></a>
+                        </li>
+                        <br>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactSection"><strong class="navBorder">Contact</strong></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
+
+        <div class="row">
+            <div class="col-lg-5 photoDiv">
+                <img class="profilePic" src="./images/StandTall.jpg" alt="StandTall">
+            </div>
+            <div class="col-lg-7">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="introDiv">
+                    <h1 class="name"><strong>Julian K Hicks</strong></h1>
+                    <h1 class="profession"> Web Developer</h1>
+                    <br>
+                    <h1 class="skills">HTML</p>
+                        <h1 class="skills">CSS</p>
+                            <h1 class="skills">JavaScript</p>
+                                <h1 class="skills">jQuery</p>
+                                    <h1 class="skills">Node.js</p>
+                                        <h1 class="skills">MySQL</p>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="aboutSection bg-secondary" id="aboutSection">
+        <div class="container">
+            <h1><strong>About Me</strong></h1>
+            <h2>&#9733;</h2>
+
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-lg-8">
+                    <p class="aboutParagraph">I am 33 year old male, who is very healthy, exercises 2-3 times a week. I
+                        work a
+                        full-time job while
+                        attending the University of California Riverside part-time to obtain a certificate in
+                        web-development. I
+                        am neither married nor do I have any children, however someday I will change those aspects of my
+                        life.
+                        <p class="aboutParagraph">
+                            My Goal is to obtain my certificate, become more confident in myself and my abilities. I
+                            will take what
+                            I have learned at the University of Riverside and strive for a full-time career in
+                            web-development.
+                        </p>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+    </section>
+
+    <section class="portfolio bg-white" id="portfolioSection">
+        <div class="container">
+            <h1><strong>Portfolio</strong></h1>
+            <h2>&#9733;</h2>
+
+            <div class="thumbnailWrapper">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="imgContainer">
+                            <a href="https://github.com/juliank2/Space-Crystal.git">
+                                <img class="img-fluid imgMod milky-way" src="./images/milky-way.jpg"
+                                    alt="milky-way"></a>
+                            <a class="projectName" href="https://juliank2.github.io/Space-Crystal/">
+                                <p>Space Crystals</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="imgContainer">
+                            <a href="https://juliank2.github.io/Marvel/">
+                                <img class="img-fluid imgMod" src="./images/Marvel.jpg" alt="Marvel"></a>
+                            <a class="projectName" href="https://github.com/juliank2/Marvel.git">
+                                <p>Marvel Trivia</p>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="imgContainer">
+                            <a href="https://github.com/juliank2/Locomotive.git">
+                                <img class="img-fluid imgMod" src="./images/Train.jpg" alt="Train"></a>
+                            <a class="projectName" href="https://juliank2.github.io/Locomotive/">
+                                <p>Train Schedule</p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="imgContainer">
+                            <img class="img-fluid imgMod" src="./images/bamazonManager.gif" alt="bamazonManager">
+                            <a class="projectName" href="https://github.com/juliank2/Node-MySQL.git">
+                                <p>Bamazon</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="imgContainer">
+                            <a href="https://wakandan-finder.herokuapp.com/">
+                                <img class="img-fluid imgMod" src="./images/Wakandan-Finder.gif"
+                                    alt="Wakandan-Finder"></a>
+                            <a class="projectName" href="https://github.com/juliank2/Friend-Finder.git">
+                                <p>Wakandan-Finder</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="imgContainer">
+                            <a href="https://polar-plateau-71606.herokuapp.com/">
+                                <img class="img-fluid imgMod" src="./images/CodeBlog.gif" alt="CodeBlog"></a>
+                            <a class="projectName" href="https://github.com/TyDSmith/codeblog.git">
+                                <p>CodeBlog</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact bg-info" id="contactSection">
+        <div class="container">
+            <h1><strong>Contact Me</strong></h1>
+            <h2>&#9733;</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 id="my-email">jkballin@gmail.com</h2>
+                    <button onclick="copyEmail('#my-email')">copy email</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-dark btn-social text-center rounded-circle"
+                                href="https://www.facebook.com/julian.hicks.14">
+                                <i class="fa fa-fw fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-dark btn-social text-center rounded-circle"
+                                href="https://www.linkedin.com/in/julian-hicks623/">
+                                <i class="fa fa-fw fa-linkedin"></i>
+                            </a>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-dark btn-social text-center rounded-circle"
+                                href="https://slack.com/">
+                                <i class="fa fa-fw fa-slack"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-dark btn-social text-center rounded-circle"
+                                href="https://github.com/juliank2">
+                                <i class="fa fa-fw fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        Copyright &copy; 2019 Julian Hicks
     </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src=""></script>
+
 </body>
 
 </html>
