@@ -26,7 +26,7 @@ body {
 }
 
 .navBorder:hover {
-    background-color: black;
+    background-color: indigo;
     color: rgb(49, 143, 26);
     padding: 2%;
     border-radius: 5px;
@@ -34,7 +34,7 @@ body {
 }
 
 .nav-link {
-    color: black; 
+    color: red; 
     font-weight: bolder;
     font-size: 125%;
 }
@@ -79,9 +79,9 @@ body {
 .photoDiv {
     text-align: center;
 }
-
+/*think about using box shadow or use calc then subtract by how big the border*/
 .profilePic {
-    width: 60%;
+    width: 200%;
     border-style: solid;
     border-color: white;
     border-width: 15px;
