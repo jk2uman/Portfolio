@@ -7,6 +7,11 @@ body {
     font-size: 140%;
 }
 /*!importants put on lines 12, 37, 92, 110, 135, 146*/
+#top {
+    width: 100%;
+    height: 45px;
+    opacity: .10;
+}
 .bg-primary {
     padding-top: 0%;
     background-color: rgb(9, 53, 20);
@@ -162,7 +167,7 @@ button:hover {
 .footer {
     text-align: center;
     background-color:rgb(19, 80, 212);
-    color:black;
+    color:rgb(133, 70, 33);
     font-size: 100%;
     padding: 1%;
 }
